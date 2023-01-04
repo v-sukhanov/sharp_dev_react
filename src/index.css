@@ -17,3 +17,28 @@
      transition: all 0.3s ease-in-out;
      background: linear-gradient(90deg, rgba(18, 231, 48, 1) 0%, rgba(0, 212, 255, 1) 100%);
  }
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.search {
+    position: relative;
+}
+.search input {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.search svg {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    opacity: 0.3;
+}
