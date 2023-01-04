@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { ProductsPage } from './pages/ProductsPage';
 import { AboutPage } from './pages/AboutPage';
 import { Navigations } from './components/Navigations';
+import { CounterPage } from './pages/counter/CounterPage';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={ <ProductsPage/> }></Route>
 				<Route path="/about" element={ <AboutPage/> }></Route>
+				<Route path="/counter" element={ <CounterPage/> }></Route>
 			</Routes>
 		</div>
 

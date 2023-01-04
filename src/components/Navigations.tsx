@@ -7,7 +7,8 @@ export const Navigations = () => {
 			<span className="font-bold"> React</span>
 			<span>
 				<Link to="/" className="mr-2">Products</Link>
-				<Link to="/about">About</Link>
+				<Link to="/about" className="mr-2">About</Link>
+				<Link to="/counter">Counter</Link>
 			</span>
 		</nav>
 	)
