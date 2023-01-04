@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 
 export const Navigations = () => {
 	return (
-		<nav className="h-[50px] flex justify-between items-center px-5 bg-gray-500 text-white">
+		<nav className="h-[50px] flex justify-between items-center px-10 bg-gray-500 text-white">
 			<span className="font-bold"> React</span>
 			<span>
-				<Link to="/" className="mr-2">Products</Link>
-				<Link to="/about" className="mr-2">About</Link>
-				<Link to="/counter">Counter</Link>
+				<Link to="/" className="mr-4">Products</Link>
+				<Link to="/about" className="mr-4">About</Link>
+				<Link to="/counter" className="mr-4">Counter</Link>
+				<Link to="/quiz">Quiz</Link>
 			</span>
 		</nav>
 	)
