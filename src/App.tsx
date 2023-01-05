@@ -7,6 +7,7 @@ import { Navigations } from './components/Navigations';
 import { CounterPage } from './pages/counter/CounterPage';
 import { Quiz } from './pages/quiz/Quiz';
 import { Users } from './pages/users/Users';
+import { CurrencyConvertorPage } from './pages/currency-convertor/CurrencyConvertorPage';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 				<Route path="/about" element={ <AboutPage/> }></Route>
 				<Route path="/counter" element={ <CounterPage/> }></Route>
 				<Route path="/users" element={ <Users/> }></Route>
+				<Route path="/currency-convertor" element={ <CurrencyConvertorPage/> }></Route>
 				<Route path="/quiz" element={ <Quiz/> }></Route>
 			</Routes>
 		</div>

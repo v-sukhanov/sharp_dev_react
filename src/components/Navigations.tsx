@@ -10,6 +10,7 @@ export const Navigations = () => {
 				<Link to="/about" className="mr-4">About</Link>
 				<Link to="/counter" className="mr-4">Counter</Link>
 				<Link to="/users" className="mr-4">Users</Link>
+				<Link to="/currency-convertor" className="mr-4">Currency convertor</Link>
 				<Link to="/quiz">Quiz</Link>
 			</span>
 		</nav>
