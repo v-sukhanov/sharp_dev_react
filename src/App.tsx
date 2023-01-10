@@ -8,6 +8,7 @@ import { CounterPage } from './pages/counter/CounterPage';
 import { Quiz } from './pages/quiz/Quiz';
 import { Users } from './pages/users/Users';
 import { CurrencyConvertorPage } from './pages/currency-convertor/CurrencyConvertorPage';
+import { ReduxEx } from './pages/redux-ex';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 			<Navigations></Navigations>
 			<Routes>
 				<Route path="/" element={ <ProductsPage/> }></Route>
+				<Route path="/redux-ex" element={ <ReduxEx/> }></Route>
 				<Route path="/about" element={ <AboutPage/> }></Route>
 				<Route path="/counter" element={ <CounterPage/> }></Route>
 				<Route path="/users" element={ <Users/> }></Route>

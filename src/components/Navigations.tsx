@@ -7,6 +7,7 @@ export const Navigations = () => {
 			<span className="font-bold"> React</span>
 			<span>
 				<Link to="/" className="mr-4">Products</Link>
+				<Link to="/redux-ex" className="mr-4">Redux ex</Link>
 				<Link to="/about" className="mr-4">About</Link>
 				<Link to="/counter" className="mr-4">Counter</Link>
 				<Link to="/users" className="mr-4">Users</Link>
